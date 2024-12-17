@@ -7,36 +7,18 @@ warnings.filterwarnings("ignore")
 import statsmodels.api as sm
 from warnings import filterwarnings
 from io import BytesIO
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import base64
 
 
 app = Flask(__name__)
-app.secret_key = "VaishSughosh%$1234"
+app.secret_key = "@Foercasting2004"
 
 @app.route('/',methods=['GET', 'POST'])
 def home():
     return render_template('index.html')
-
-@app.route('/about',methods=['GET', 'POST'])
-def about():
-    return render_template('about.html')
-
-@app.route('/help',methods=['GET', 'POST'])
-def helps():
-    return render_template('help.html')
-
-@app.route('/privacy',methods=['GET', 'POST'])
-def privacy():
-    return render_template('privacy.html')
-
-@app.route('/feedback', methods=['GET', 'POST'])
-def feedback():
-    return render_template('feedback.html')
-
-@app.route('/sitemap.xml', methods=['GET', 'POST'])
-def sitemap():
-    return render_template('sitemap.xml')
 
 @app.errorhandler(500)
 def request_internal_server_error(error):

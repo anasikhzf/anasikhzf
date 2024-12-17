@@ -1,0 +1,115 @@
+/* Custom Styling for Header and Footer */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+header .header-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .header-container p {
+    font-size: 1.1rem;
+}
+
+/* Form Section Styling */
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-size: 1.1rem;
+}
+
+.form-text {
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Table Styling */
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Image Styling */
+.forecast-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Card Header Styling */
+.card-header {
+    background-color: #6c757d;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Alert Styling */
+.alert-info {
+    margin-top: 20px;
+}
+
+/* Text Styling */
+.text-success {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 2px solid #dee2e6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
