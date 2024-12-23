@@ -11,7 +11,7 @@
     <!-- Header Section -->
     <header>
         <div class="header-container">
-                <h1 class="text-center">Auto Forecasting</h1>
+                <h1 class="text-center">Forecasting Calculate</h1>
                 <p class="text-center text-muted mb-4">Your time series forecast results are below.</p>
             </div>
     </header>
@@ -45,7 +45,6 @@
                 <div class="table-responsive">
                     {% for table in tables %}
                         <div class="mb-4">
-                            <h4 class="text-center">{{ titles[loop.index0] }}</h4>
                             <div>{{ table|safe }}</div>
                         </div>
                     {% endfor %}
@@ -76,6 +75,8 @@
                 </div>
             </div>
         </div>
+
+        <br><br>
 
         <!-- Back Button -->
         <div class="text-center mt-4">
